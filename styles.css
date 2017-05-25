@@ -30,7 +30,7 @@ p {
 
 #navigation_container {
    margin: 0 auto;
-   width: 700px;
+   width: 650px;
 }
 
 .rectangle {
@@ -42,6 +42,5 @@ p {
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
    border-radius: 3px;
-   z-index: 500; /* the stack order: foreground */
    margin: 3em 0;
 }
