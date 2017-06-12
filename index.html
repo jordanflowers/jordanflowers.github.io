@@ -1,32 +1,51 @@
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+<style>
+p {
+  text-indent: 50px;
+}
+body {
+  background-color: #878484;
+}
+#ribbon {
+    list-style-type: none;
+    margin: -10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    margin: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff3300;
+}
+</style>
 </head>
 <body>
-<p><img src="me.jpg" alt="Jordan Flowers" style="float:right;width:300px;height:300px;">
-  <h1>Welcome to my webpage!</h1>
-  <!-- the navigation links -->
- 
-   <div id="navigation_container">
- 
-<!-- the ribbon body -->
- 
-      <div class="rectangle">
- 
-<!-- the navigation links -->
- 
-   <ul id="navigation">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Links</a></li>
-      <li><a href="#">Contact</a></li>
-   </ul>
- 
-<!-- end the ribbon body -->
-   </div>
- 
-<!-- end container -->
-</div>
-</p>
+<ul id="ribbon">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+<h1 align="center">Jordan Flowers</h1>
+<hr></hr>
+<p><img src="me.jpg" alt="Jordan Flowers" style="float:left;width:200px;height:200px;"></p>
+<h2>Welcome to my webpage! I appreciate your company.</h2>
 </body>
 </html>
